@@ -2,7 +2,7 @@ from models import Dog
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base
 def create_table(base , engine):
-    # You already passed base, no need to redefine
+    
       base.metadata.create_all(engine)
    
 
